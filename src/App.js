@@ -175,7 +175,7 @@ export default class App extends Component {
             </div>
           </div>
         </section>
-        <section className='jumbotron' style={{ backgroundColor: '#3F3D56' }}>
+        <section className='jumbotron' style={{ backgroundColor: '#2C303B' }}>
           <div id="show_case" className='container shadow' style={{ backgroundColor: '#fff', borderRadius: '1%', padding: '5%' }}>
             <h3>Showcase</h3>
             <div className='mt-3' style={{ display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center' }}>
