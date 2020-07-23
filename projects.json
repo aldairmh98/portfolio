@@ -1,0 +1,171 @@
+{
+    "mobile": {
+        "id": 1,
+        "title": "Mobile",
+        "projects": [
+            {
+                "id": 9,
+                "title": "\"MiPedido\" App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png",
+                    "/stacks/java.png",
+                    "/stacks/node-js.jpg"
+                ],
+                "pictures": [
+                    "/mipedido/mobile/1.jpeg",
+                    "/mipedido/mobile/2.jpeg",
+                    "/mipedido/mobile/3.jpeg",
+                    "/mipedido/mobile/4.jpeg",
+                    "/mipedido/mobile/5.jpeg",
+                    "/mipedido/mobile/6.jpeg",
+                    "/mipedido/mobile/7.jpeg"
+                ]
+            }, {
+                "id": 10,
+                "title": "\"MiPedido\" Delivery Person App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png",
+                    "/stacks/java.png",
+                    "/stacks/node-js.jpg",
+                    "/stacks/android.png"
+                ],
+                "pictures": [
+                    "/mipedido/mobile/deliverier/1.jpeg",
+                    "/mipedido/mobile/deliverier/2.jpeg",
+                    "/mipedido/mobile/deliverier/3.jpeg",
+                    "/mipedido/mobile/deliverier/4.jpeg",
+                    "/mipedido/mobile/deliverier/5.jpeg"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "\"Nogales limpio\" App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png"
+                ],
+                "pictures": [
+                    "/nogales/track.jpeg",
+                    "/nogales/schedule.jpg",
+                    "/nogales/notifications.jpg",
+                    "/nogales/tips.jpeg",
+                    "/nogales/tip_detail.jpeg"
+                ]
+            },
+            {
+                "id": 0,
+                "title": "Expedient Management App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/java.png"
+                ],
+                "pictures": [
+                    "/expedient/login.png",
+                    "/expedient/expedient_list.png",
+                    "/expedient/documents_list.png",
+                    "/expedient/document_details.png",
+                    "/expedient/requests.png",
+                    "/expedient/sharing.png"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Pet Adoption App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png"
+                ],
+                "pictures": [
+                    "/pets/pets_1.jpg",
+                    "/pets/pets_2.jpg",
+                    "/pets/pets_3.jpg",
+                    "/pets/pets_4.jpg",
+                    "/pets/pets_5.jpg"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "\"Hablemos con las manos\" App",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png"
+                ],
+                "pictures": [
+                    "/hm/1.gif",
+                    "/hm/2.gif",
+                    "/hm/3.gif"
+                ]
+            }
+        ]
+    },
+    "web": {
+        "id": 0,
+        "title": "Web",
+        "projects": [
+            {
+                "id": 1,
+                "title": "\"MiPedido\" Web Platform",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png",
+                    "/stacks/java.png",
+                    "/stacks/node-js.jpg"
+                ],
+                "pictures": [
+                    "/mipedido/web/1.jpeg",
+                    "/mipedido/web/2.png",
+                    "/mipedido/web/3.png",
+                    "/mipedido/web/4.png",
+                    "/mipedido/web/5.png",
+                    "/mipedido/web/6.png"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Web Platform for NOM-035 Surveys",
+                "stack": [
+                    "/stacks/php.png",
+                    "/stacks/angular.png"
+                ],
+                "pictures": [
+                    "/nom_survey/1.png",
+                    "/nom_survey/2.png",
+                    "/nom_survey/3.png",
+                    "/nom_survey/4.png",
+                    "/nom_survey/5.png",
+                    "/nom_survey/6.png"
+                ]
+            },
+            {
+                "id": 1,
+                "title": "Scholar Document Generator Web App",
+                "stack": [
+                    "/stacks/php.png",
+                    "/stacks/angular.png"
+                ],
+                "pictures": [
+                    "/pdfGen/1.png",
+                    "/pdfGen/6.png",
+                    "/pdfGen/2.png",
+                    "/pdfGen/3.png",
+                    "/pdfGen/5.png"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Aplicación de administrador para \"Nogales Limpio\"",
+                "stack": [
+                    "/stacks/logo192.png",
+                    "/stacks/firebase.png"
+                ],
+                "pictures": [
+                    "/nogales/web/1.png",
+                    "/nogales/web/2.png",
+                    "/nogales/web/3.png"
+                ]
+            }
+        ]
+    }
+}
