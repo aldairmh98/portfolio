@@ -1,3 +1,7 @@
 .container {
   padding-top: 3.5rem;
 }
+
+.jumbotron{
+  margin-bottom: 0 !important;
+}
