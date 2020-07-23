@@ -120,10 +120,12 @@ export default class App extends Component {
       <div>
         <Header></Header>
         <div className="container mb-3" id="about">
-          <h2>Aldair Marín Hernández</h2>
+          <h1>Aldair Marín Hernández</h1>
           <div className="row">
             <div className="col-md-8 d-flex justify-content-center align-items-center" >
-              <p className="mt-3 text text-justify">Soy informático, originario de Córdoba, Veracruz. Egresado de la Universidad Veracruzana y con disponibilidad de movilidad a otra ciudad. Con experiencia en proyectos desarrollados en Java, Javascript, Python y PHP, entusiasta en aprender y desarrollar nuevas habilidades técnicas y personales</p>
+              <p className="mt-3 text text-justify">
+                Junior Software Develeoper, from Córdoba, Veracruz. Universidad Veracruzana graduated and able for residence change. I have worked on projects developed in Java, Javascript, PHP y Python, interested in learning and developing new technicals and personals skills.
+                </p>
             </div>
             <div className="col-md-4">
               <img src={'/undraw_preferences_popup_wbfw.svg'} style={{ width: '80%' }}></img>
