@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {createRef, useEffect, useState} from 'react';
 import skillsCss from './skills.css'
 
 const skillsC = skillsCss;
@@ -91,6 +91,8 @@ export const GalleryModal = (props) => {
 
     const [currentImage, setCurrentImage] = useState(0)
 
+    const imageRef = createRef()
+
     function onChangeImage(value) {
         const nextIndex = currentImage + value;
         if (nextIndex === -1) {
@@ -140,7 +142,16 @@ export const GalleryModal = (props) => {
                                 onClick={() => onChangeImage(-1)}><i className="bi bi-arrow-left-short"/></button>}
                     </div>
                     <div style={{flex: 1, display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                        <img style={{width: 'auto', height: '80vh'}} src={gallery[currentImage]}/>
+                        <img
+                            ref={imageRef}
+                            onLoad={evt => {
+                                const {naturalHeight, naturalWidth} = evt.target;
+                                if (naturalWidth > naturalHeight) {
+                                    imageRef.current.style.width = '80%';
+                                    imageRef.current.style.height = 'auto';
+                                }
+                            }}
+                            style={{width: 'auto', height: '80vh'}} src={gallery[currentImage]}/>
                     </div>
                     <div
                         className={'pl-3 pr-3'}

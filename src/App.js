@@ -123,7 +123,7 @@ export default class App extends Component {
         return (
             <div>
                 <Header></Header>
-                <div className="container mb-3" id="about">
+                <div className="container mb-6" id="about">
                     <h1>Aldair Marín Hernández</h1>
                     <div className="row">
                         <div className="col-md-8 d-flex justify-content-center align-items-center">
