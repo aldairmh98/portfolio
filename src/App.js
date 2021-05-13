@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import Header from './Header';
-import {Button, ButtonGroup, Carousel} from 'react-bootstrap';
-import {Loading} from './Loading';
 import './App.css';
 import {Skills} from "./components/Skills";
-import {Experience, GalleryModal} from "./components/Experience";
+import {Experience} from "./components/Experience";
 import {PersonalProjects} from "./components/PersonalProjects";
 
 export default class App extends Component {
@@ -195,7 +193,7 @@ export default class App extends Component {
                 <section className={'jumbotron'} id={'personal'}>
                     <PersonalProjects></PersonalProjects>
                 </section>
-                <section className='jumbotron' style={{backgroundColor: '#2C303B'}}>
+                {/*<section className='jumbotron' style={{backgroundColor: '#2C303B'}}>
                     <div id="show_case" className='container shadow'
                          style={{backgroundColor: '#fff', borderRadius: '1%', padding: '5%'}}>
                         <h3>Showcase</h3>
@@ -329,7 +327,7 @@ export default class App extends Component {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section>*/}
             </div>
         );
     }
