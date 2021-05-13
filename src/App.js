@@ -4,7 +4,7 @@ import {Button, ButtonGroup, Carousel} from 'react-bootstrap';
 import {Loading} from './Loading';
 import './App.css';
 import {Skills} from "./components/Skills";
-import {Experience} from "./components/Experience";
+import {Experience, GalleryModal} from "./components/Experience";
 import {PersonalProjects} from "./components/PersonalProjects";
 
 export default class App extends Component {
@@ -18,7 +18,8 @@ export default class App extends Component {
             active_mobile: null,
             active_idx: 0,
             frameworks: [],
-            languages: []
+            languages: [],
+            visible: true
         };
 
         this.before_idx = 0;
@@ -120,6 +121,7 @@ export default class App extends Component {
     render() {
 
         let {frameworks, languages} = this.state;
+
         return (
             <div>
                 <Header></Header>
@@ -260,7 +262,6 @@ export default class App extends Component {
 
                                     </div>
                                 </div>
-
                             </div>
                             <div className='col-12 col-md-9'>
                                 <div className='card' style={{minHeight: 600}}>
